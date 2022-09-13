@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar || Starter</title>
+    <!----------normalize----->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-------font-awesome------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--------main css-------->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <button type="button" class="sidebar-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <!-----sidebar------>
+    <aside class="sidebar">
+      <!-----header------->
+      <div class="sidebar-header">
+        <h4 class="logo">Codding<span>Addict</span></h4>
+        <button type="button" class="close-btn">
+          <i class="fa-solid fa-times"></i>
+        </button>
+      </div>
+      <!-------links------->
+      <ul class="links">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">project</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <!-------social icons------>
+      <ul class="social-icons">
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-behance"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-sketch"></i></a>
+        </li>
+      </ul>
+    </aside>
+    <!-----end of sidebar------>
+
+    <!-------javascript------>
+    <script src="./app.js"></script>
+  </body>
+</html>
